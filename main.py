@@ -106,5 +106,6 @@ def create_app():
 
 # Keep the main() function for local development
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8080))
     app = create_app()
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=port)
