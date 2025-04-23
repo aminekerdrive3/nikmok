@@ -1,0 +1,10 @@
+python-dotenv
+google-generativeai
+requests>=2.31.0
+selenium
+webdriver-manager
+instagrapi
+pytest
+pytest-cov
+flask
+gunicorn
